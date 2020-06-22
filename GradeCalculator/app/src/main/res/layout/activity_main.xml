@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/holo_orange_light"
+tools:context=".MainActivity">
+android:layout_height="86dp"
+android:layout_marginStart="80dp"
+android:layout_marginTop="80dp"
+android:layout_marginEnd="80dp"
+android:layout_marginBottom="80dp"
+android:text="@string/grade_calculaterr"
+android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+android:textSize="30sp" />
+
+
+
+    <EditText
+    android:id="@+id/Quizes15"
+    android:layout_width="204dp"
+    android:layout_height="wrap_content"
+
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="150dp"
+    android:background="#60B8B0"
+    android:ems="10"
+    android:hint="@string/quizes_15"
+    android:inputType="textPersonName"
+    android:textSize="25sp"
+    android:importantForAutofill="no" />
+
+
+<EditText
+    android:id="@+id/editTextTextPersonName2"
+    android:layout_width="204dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="220dp"
+    android:background="#60B8B0"
+    android:ems="10"
+    android:hint="@string/homework_25"
+    android:inputType="textPersonName"
+    android:textSize="25sp"
+    android:autofillHints="" />
+
+
+<EditText
+    android:id="@+id/editTextTextPersonName3"
+    android:layout_width="198dp"
+    android:layout_height="48dp"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="290dp"
+    android:background="#60B8B0"
+    android:ems="10"
+    android:hint="@string/mid_terms_30"
+    android:inputType="textPersonName"
+    android:textSize="25sp"
+    android:autofillHints="" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName4"
+    android:layout_width="204dp"
+    android:layout_height="47dp"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="360dp"
+    android:background="#60B8B0"
+    android:ems="10"
+    android:hint="@string/final_30"
+    android:inputType="textPersonName"
+    android:textSize="25sp"
+    android:importantForAutofill="no" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="182dp"
+    android:layout_height="72dp"
+    android:background="#C595DD"
+    android:text="@string/calculate"
+    android:textSize="37sp"
+    android:layout_marginStart="110dp"
+    android:layout_marginTop="470dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grade_calculate"
+        android:textSize="30sp"
+       android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"/>
+
+</RelativeLayout>
